@@ -12,18 +12,21 @@ The maps are drawn in 3d, using either custom home brew drawn objects and or pre
 # Layouts and Controls
 ## Displays
 The main window has 2 layouts “Full Screen” or “Control View” and can also display the map view in fullscreen on a seperate display. 
+![Displays jpg](https://github.com/rpglandmaps/rpglandmaps-app/blob/master/displays.jpg?raw=true)
 
-1. Current Map name (see Locations on how to change)
-2. Main Icon Control Panel
+1. Current Map name (see Locations on how to change) (only on both primary display views)
+2. Main Icon Control Panel (only on both primary display views)
    - Orbit Pan view toggle.
    - Grid on off toggle
    - Day night toggle
    - Send to secondary display (no way in unity to deactivate secondary display one activated, so close and reopen is only option to switch back to single display)
    - Full Screen Control view toggle
-3. Locations tree view of sub maps and saved locations
+3. Locations tree view of sub maps and saved locations (only on primary display contol views)
    - Sub map with add location using current view state button (only on current active sub map)
    - Save Locations with view orbit or pan icon, name and delete location button (only on current active sub map)
-4. Location name edit and location notes for GM/DM to add what they need / want.
+4. Location name edit and location notes for GM/DM to add what they need / want. (only on primary display contol views)
+
+![Control View Locations jpg](https://github.com/rpglandmaps/rpglandmaps-app/blob/master/Layout%20Control%20View.JPG?raw=true)
 
 Note
 The Control view is done in a dark theme so as not to distract from any mood lighting and aid GM/DM viewing.
@@ -64,14 +67,22 @@ Right click on the Orbit Pan, Grid, or Day Night icons will open up relevant set
 - Orbit Pan Speed (Slider) = Set mouse orbit mode pan speed
 - Orbit Speed (Slider) = Set mouse orbit mode speed
 - Orbit Scroll Speed (Slider) = Set mouse orbit mode scroll zoom speed
+![Orbit Pan Settings Dialog](https://github.com/rpglandmaps/rpglandmaps-app/blob/master/Settings%20Orbit%20Pan.JPG?raw=true)
 ## Grid
 - Grid Type (Dropdown) = Select grid type (only rectangle atm)
 - Grid Size (Slider) = Set grid size
 - Grid Colour (RGB Spectrum Image) = Select grid colour.
 - Grid Alpha (Slider) = Select grid alpha value.
+![Grid Settings Dialog](https://github.com/rpglandmaps/rpglandmaps-app/blob/master/Settings%20Grid.JPG?raw=true)
 ## Dayand Night
 - Night Lights on Random Bias = Set the value of random lights on (low = none, mid = 50%, and high = all) 
+![Day Night Settings Dialog](https://github.com/rpglandmaps/rpglandmaps-app/blob/master/Settings%20Day%20Night.JPG?raw=true)
 
-## Screens
+# Version
+At the moment all maps on patreon page are single display without save locations and notes etc. I want to back port them but will take time. This is Version 1-0-0 and thus any map will be published with the version number prefixed to map name so you can see if the version you have downloaded is older than the offered version, and thus update.
+
+And this github is to track any issues suggestions for this application
+
+Many thanks
 
 
