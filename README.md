@@ -20,18 +20,22 @@ Detail of mpas is a complex subject, that includes performance of PC, Enough det
 The maps are drawn in 3d, using either custom home brew drawn objects and or prefabs.I plan to slowly ramp up the size/detail and include such technologies as LOD and Occlusion to add performance, and add more animated items (such as wildlife, birds etc), weather controls, and sounds controlled by location
 
 <a name="MainToolbar"/>
+
 # Main Toolbar
 ![MainToolbar jpg](https://github.com/rpglandmaps/rpglandmaps-app/blob/master/MainToolbar.jpg?raw=true)
 
 <a name="EyeViewModeControl"/>
+
 # Eye View Mode Control
 ![EyeViewMode jpg](https://github.com/rpglandmaps/rpglandmaps-app/blob/master/EyeViewMode.jpg?raw=true)
 
 <a name="OrbitViewModeControl"/>
+
 # Orbit View Mode Control
 ![OrbitViewMode jpg](https://github.com/rpglandmaps/rpglandmaps-app/blob/master/OrbitViewMode.jpg?raw=true)
 
 <a name="PanViewModeControl"/>
+
 # Pan View Mode Control
 ![PanViewMode jpg](https://github.com/rpglandmaps/rpglandmaps-app/blob/master/PanViewMode.jpg?raw=true)
 
